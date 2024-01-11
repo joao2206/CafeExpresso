@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/Fundo.jpg");
+  color: #ffeebb;
+  font-family: Verdana, Liberation, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  width: 40%;
+  float: left;
+  display: block;
+  margin-bottom: 1px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #ffeebb;
+}
+
+address {
+  text-align: right;
+  line-height: 150%;
+  float: right;
+  margin: 0;
+  padding: 20px;
+}
+
+address p {
+  text-align: right;
+}
+
+nav {
+  clear: both;
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+ul {
+  line-height: 200%;
+  list-style-position: inside;
+  list-style-type: circle;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffeebb;
+}
+
+.menu:visited {
+  color: #ddcc99;
+}
+
+section {
+  display: block;
+  width: 77%;
+  height: 77vh;
+  float: right;
+}
+
+#imgSection {
+  left: 60%;
+  top: 60%;
+  margin-left: -200px;
+  text-align: center;
+}
+
+.historia {
+  text-align: justify;
+  padding-right: 10px;
+  line-height: 180%;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.historia p {
+  margin-bottom: 10px;
+}
+
+.imgesq {
+  margin: 12px 0px 4px 12px;
+  float: right;
+  padding: 3px;
+}
+
+.imgdir {
+  margin: 12px 12px 4px 0px;
+  float: left;
+  padding: 3px;
+}
+
+.fonte {
+  clear: both;
+  float: right;
+}
+
+.fonte a {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.saches h1{
+  margin-bottom: 50px;
+}
+
+.saches p {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.lista_saches {
+margin-top: -20px;    
+}
+
+/**/
+.tabInfo {
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+  color: #573218;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+
+th,td {
+  border: 2px solid #664422;
+  padding: 6px 12px 6px 12px;
+}
+
+.linTH {
+  background-color: #907968;
+  color: #FFFFFF;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.colTH {
+  background-color: #EACEAC;
+  color: #573218;
+}
+
+.preco {
+  color: #CC0000;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.forms {
+  display: flex;
+  width: 524px;
+  margin-top: 30px;
+}
+
+fieldset {
+  border: 1 solid;
+  background-color: #907968;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+optgroup[label] {
+  font-style: italic;
+}
+
+#fsForm {
+  clear: both;
+  width: 524px;
+}
+
+#fsResEsq {
+  float: left;
+  width: 200px;
+  height: 280px;
+}
+
+#fsResDir {
+  float: right;
+  width: 280px;
+  height: 280px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.labelEsq {
+  width: 70px;
+  margin-left: 60px;
+}
+
+input[type="radio"] {
+  padding: 10px;
+  margin: 20px 0px 40px 0px;
+}
+
+#nome,
+#email {
+  width: 160px;
+}
+
+#cpf,
+#telefone {
+  width: 120px;
+}
+
+#cpf,
+#email {
+  float: right;
+  margin-left: -50px;
+}
+
+#nome {
+  margin-left: 27px;
+}
+
+#telefone {
+  margin-left: 18px;
+}
+
+#endereco {
+  width: 80%;
+}
+
+#valor {
+  width: 50px;
+  height: 20px;
+  float: right;
+}
+
+textarea {
+  width: 200px;
+  height: 80px;
+  margin-bottom: 60px;
+}
+  

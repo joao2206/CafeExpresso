@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html language="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/sitecafe_p1.css" />
+  <title>EXPRESSO DO CAFÉ</title>
+</head>
+<body>
+    <header>
+        <img id="imgLogo" src="img/Logo_Pequeno.png" />
+      </header>
+      <address>
+        <p>Avenida Mochaccino, 10</p>
+        <p>Tel: (21) 1234-5678</p>
+        <p><u>contato@coffe.com.br</u>></p>
+      </address>
+      <nav>
+        <ul>
+          <li><a class="menu" href="index.html">Inicial</a></li>
+          <li><a class="menu" href="historia.html">História</a></li>
+          <li><a class="menu" href="#">Máquinas</a></li>
+          <li><a class="menu" href="saches.html">Saches</a></li>
+          <li><a class="menu" href="compras.html">Compras</a></li>
+        </ul>
+      </nav>
+
+      <section class="compras">
+        <div class="forms">
+          <form action="">
+              <fieldset id="fsForm">
+                  <legend>Dados de identificação</legend>
+                  
+                  <label for="nome">Nome:</label>
+                  <input id="nome" type="text" name="nome" placeholder="Nome Completo" required />
+  
+                  <label for="cpf" class="labelEsq">Cpf:</label>
+                  <input id="cpf" type="text" name="cpf" placeholder="000.000.000-00" /></br>
+  
+                  <label for="celular">Celular:</label>
+                  <input id="celular" type="tel" name="celular"  placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"/>
+  
+                  <label for="email" class="labelEsq">E-mail:</label>
+                  <input id="email" type="email" name="email"  placeholder="nomeusuario@email.com"/><br/>
+  
+                  <label for="endereco">Endereço:</label>
+                  <input id="endereco" type="text" name="endereco"  placeholder="Digite seu endereço"/><br/>
+                 
+              </fieldset>
+              
+                <fieldset id="fsResEsq">
+                  <legend>Produtos</legend>
+  
+                  <label for="maquinas">Máquinas:</label>
+                  <select id="maquinas" name="maquinas">
+                    <option>---</option>
+                    <optgroup label="Dolce Gusto">
+                      <option>Piccolo</option>
+                    </optgroup>
+                    <optgroup label="Nespresso">
+                      <option>Inissia C40</option>
+                      <option>U C50</option>
+                    </optgroup>
+                    <optgroup label="Senseo">
+                      <option>HD7811/96</option>
+                    </optgroup>
+                  </select></br>
+  
+                  <label for="saches">Sachês:</label>
+                  <select id="saches" name="saches">
+                    <option>---</option>
+                    <optgroup label="Dolce Gusto">
+                      <option>Expresso</option>
+                      <option>Descafeinado</option>
+                    </optgroup>
+                    <optgroup label="Nespresso">
+                      <option>Livanto</option>
+                      <option>Ristretto</option>
+                      <option>Vanilio</option>
+                    </optgroup>
+                    <optgroup label="Senseo">
+                      <option>Clássico</option>
+                      <option>Intenso</option>
+                    </optgroup>
+                  </select></br>
+  
+                  <label for="selecionados">Selecionados</label>
+                  <input id="selecionados" type="reset" name="selecionados"/><br>              
+                  <textarea id="selecionados" name="selecionados"></textarea><br>
+  
+                  <label for="valor" >Valor:</label>
+                  <textarea id="valor"></textarea>
+                </fieldset>
+  
+                <fieldset id="fsResDir">
+                  <legend>Forma de Pagamento</legend>
+                    <input id="cartao" type="radio" name="pagamento" value="cartao"/> <label for="masc">Cartão</label>
+                    <input id="cheque"  type="radio" name="pagamento" value="cheque"/> <label for="fem">Cheque</label>
+                    <input id="dinheiro"  type="radio" name="pagamento" value="dinheiro"/> <label for="fem">Dinheiro</label>
+                  
+                  <fieldset>
+                    <legend>Dados do cartão</legend>
+                    <input id="visa" type="radio" name="tipo_cartao" value="visa"/> <label for="masc"><img src="img/visa.png"/></label>
+                    <input id="master"  type="radio" name="tipo_cartao" value="master"/> <label for="fem"><img src="img/master.png"/></label>
+                    <input id="america"  type="radio" name="tipo_cartao" value="america"/> <label for="fem"><img src="img/amex.png"/></label>
+  
+                    <label for="validade">Validade: </label>
+                    <input type="month" id="validade" name="validade"/>
+  
+                    <label for="numeroCartao">Número: </label>
+                    <input type="text" id="numeroCartao" name="numeroCartao"/>
+                  </fieldset>                
+                </fieldset>  
+                
+                <div id="botoes-form">
+                  <input type="submit" name="bnt-enviar" value="Enviar"/>
+                  <input type="reset" name="bnt-limpar" value="Limpar"/>
+              </div>
+          </form>
+        </div>
+      </section>
+    </body>
+  </html>
